@@ -20,7 +20,7 @@ async function productoRandom () {
 }
 
 app.get('/', (req, res) => {
-    res.send(`Root!!!!!`);
+    res.send(`Bienvenido`);
 })
 
 app.get("/productos", async (req, res) =>{
